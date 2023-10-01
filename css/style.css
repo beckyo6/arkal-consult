@@ -5,7 +5,12 @@ body {
     font-family: 'Mukta', sans-serif;
 }
 
-
+.bg-image {
+    background-image: url('../img/cover.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
 
 .mask {
     height: 100vh;
