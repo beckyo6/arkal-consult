@@ -20,13 +20,17 @@ body {
 .btn-purple {
     color: #fff;
     background-color: #FF914D;
-    border-color: #FF914D
+    border-color: #FF914D;
+    border-radius: 10rem;
+
 }
 
 .btn-purple:hover {
     color: #fff;
     background-color: #FF914D;
-    border-color: #FF914D
+    border-color: #FF914D;
+    border-radius: 10rem;
+
 }
 
 .bg-blue {
@@ -52,6 +56,7 @@ body {
 .card-blue-night {
     background-color: #952aff;
 }
+
 .card-blue {
     background-color: #4c49ea;
 }
