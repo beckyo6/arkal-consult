@@ -30,7 +30,7 @@ body {
 }
 
 .bg-blue {
-    background-color: #1A3D97;
+    background-color: #4c49ea;
     color: #fff;
 }
 
@@ -54,4 +54,42 @@ body {
 }
 .card-blue {
     background-color: #4c49ea;
+}
+
+.animation-card {
+    display: block;
+    position: relative;
+
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+    background-color: #fff;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+
+    &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: -20px;
+        right: -20px;
+        background: #952aff;
+        height: 50px;
+        width: 60px;
+        border-radius: 32px;
+        transform: scale(1);
+        transition: transform 0.25s ease-out;
+    }
+
+    &:hover:before {
+        transform: scale(21);
+    }
+}
+
+.animation-card:hover {
+    .card-body {
+        transition: all 0.3s ease-out;
+        color: #ffffff;
+    }
 }
