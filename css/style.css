@@ -34,6 +34,24 @@ body {
     color: #fff;
 }
 
-.card-shadow{
-    box-shadow: 0px 10px 10px -5px rgb(54, 53, 50);
+.card {
+    max-width: 300px;
+    min-height: 100px;
+    display: flex;
+
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+}
+
+.card-pink {
+    background-color: #cd3e94;
+}
+
+.card-blue-night {
+    background-color: #952aff;
+}
+.card-blue {
+    background-color: #4c49ea;
 }
