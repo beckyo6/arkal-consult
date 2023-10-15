@@ -46,6 +46,11 @@ body {
     color: #fff;
 }
 
+.bg-beige {
+    background-color: #C4D6B0;
+    color: #000;
+}
+
 .card {
     max-width: 300px;
     min-height: 100px;
