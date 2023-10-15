@@ -17,18 +17,18 @@ body {
     background-color: hsla(210, 56%, 41%, 0.7)
 }
 
-.btn-purple {
-    color: #000;
-    background-color: #FF914D;
-    border-color: #FF914D;
+.btn-dark-blue {
+    color: #fff;
+    background-color: #952aff;
+    border-color: #952aff;
     border-radius: 10rem;
 
 }
 
-.btn-purple:hover {
-    color: #000;
-    background-color: #FF914D;
-    border-color: #FF914D;
+.btn-dark-blue:hover {
+    color: #fff;
+    background-color: #952aff;
+    border-color: #952aff;
     border-radius: 10rem;
 
 }
