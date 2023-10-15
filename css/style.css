@@ -18,7 +18,7 @@ body {
 }
 
 .btn-purple {
-    color: #fff;
+    color: #000;
     background-color: #FF914D;
     border-color: #FF914D;
     border-radius: 10rem;
@@ -26,7 +26,7 @@ body {
 }
 
 .btn-purple:hover {
-    color: #fff;
+    color: #000;
     background-color: #FF914D;
     border-color: #FF914D;
     border-radius: 10rem;
@@ -41,8 +41,8 @@ body {
     padding-bottom: 20px;
 }
 
-.bg-blue {
-    background-color: #4c49ea;
+.bg-dark-red {
+    background-color: #3b0d11;
     color: #fff;
 }
 
