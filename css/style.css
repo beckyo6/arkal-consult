@@ -33,6 +33,10 @@ body {
 
 }
 
+.text-blue{
+    color:#004AAD!important;
+}
+
 .ul-style {
     list-style-type: none;
     border-left: 5px solid #952aff;
